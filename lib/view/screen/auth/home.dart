@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:get/get.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:untitled/controller/auth/home_controller.dart';
-import 'package:untitled/core/constant/colore.dart';
+import 'package:travelapp/controller/auth/home_controller.dart';
+import 'package:travelapp/core/constant/colore.dart';
 
 class Home extends StatefulWidget {
   @override

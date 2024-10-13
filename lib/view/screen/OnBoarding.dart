@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:untitled/controller/onboarding_controller.dart';
-import 'package:untitled/view/widget/onboarding/custombutton.dart';
-import 'package:untitled/view/widget/onboarding/customslider.dart';
-import 'package:untitled/view/widget/onboarding/dotcontroller.dart';
+import 'package:travelapp/controller/onboarding_controller.dart';
+import 'package:travelapp/view/widget/onboarding/custombutton.dart';
+import 'package:travelapp/view/widget/onboarding/customslider.dart';
+import 'package:travelapp/view/widget/onboarding/dotcontroller.dart';
 
 class OnBoarding extends StatelessWidget {
   @override

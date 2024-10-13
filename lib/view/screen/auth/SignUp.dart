@@ -3,10 +3,10 @@ import 'package:flutter/material.dart'; // مكتبة Flutter لبناء واج�
 import 'package:get/get.dart'; // مكتبة GetX لإدارة الحالة والتنقل.
 import 'package:image_picker/image_picker.dart'; // مكتبة ImagePicker لاختيار الصور.
 import 'package:intl_phone_number_input/intl_phone_number_input.dart'; // مكتبة IntlPhoneNumberInput لاختيار رقم الهاتف الدولي.
-import 'package:untitled/controller/auth/SignUp_controller.dart'; // استيراد SignUp_controllerimp.
-import 'package:untitled/core/constant/colore.dart';
-import 'package:untitled/view/widget/auth/custombuttonauth.dart'; // استيراد custombuttonauth widget.
-import 'package:untitled/view/widget/auth/customtextformauth.dart'; // استيراد customtextformauth widget.
+import 'package:travelapp/controller/auth/SignUp_controller.dart'; // استيراد SignUp_controllerimp.
+import 'package:travelapp/core/constant/colore.dart';
+import 'package:travelapp/view/widget/auth/custombuttonauth.dart'; // استيراد custombuttonauth widget.
+import 'package:travelapp/view/widget/auth/customtextformauth.dart'; // استيراد customtextformauth widget.
 
 // ignore: must_be_immutable
 class SignUp extends StatelessWidget {

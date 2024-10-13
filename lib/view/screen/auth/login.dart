@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:untitled/controller/auth/login_controller.dart';
-import 'package:untitled/core/constant/colore.dart';
-import 'package:untitled/view/widget/auth/custombuttonauth.dart';
-import 'package:untitled/view/widget/auth/logoauth.dart';
-import 'package:untitled/view/widget/auth/customtextSignuporsignin.dart';
+import 'package:travelapp/controller/auth/login_controller.dart';
+import 'package:travelapp/core/constant/colore.dart';
+import 'package:travelapp/view/widget/auth/custombuttonauth.dart';
+import 'package:travelapp/view/widget/auth/logoauth.dart';
+import 'package:travelapp/view/widget/auth/customtextSignuporsignin.dart';
 
 class login extends StatelessWidget {
   @override

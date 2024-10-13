@@ -1,5 +1,5 @@
-import 'package:untitled/core/constant/imageasset.dart';
-import 'package:untitled/data/model/onboardingmodel.dart';
+import 'package:travelapp/core/constant/imageasset.dart';
+import 'package:travelapp/data/model/onboardingmodel.dart';
 
 List<OnBoardingModel> OnBoardinglist = [
   OnBoardingModel(body: 'اهلين', image: imageasset.tow),

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:untitled/core/constant/routes.dart';
-import 'package:untitled/core/localization/changelocal.dart';
-import 'package:untitled/view/widget/language/custombuttomlang.dart';
+import 'package:travelapp/core/constant/routes.dart';
+import 'package:travelapp/core/localization/changelocal.dart';
+import 'package:travelapp/view/widget/language/custombuttomlang.dart';
 
 class Language extends GetView<LocaleController> {
   @override

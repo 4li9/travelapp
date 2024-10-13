@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:untitled/core/localization/changelocal.dart';
-import 'package:untitled/core/localization/translation.dart';
-import 'package:untitled/core/services/services.dart';
-import 'package:untitled/routes.dart';
-import 'package:untitled/view/screen/language.dart';
+import 'package:travelapp/core/localization/changelocal.dart';
+import 'package:travelapp/core/localization/translation.dart';
+import 'package:travelapp/core/services/services.dart';
+import 'package:travelapp/routes.dart';
+import 'package:travelapp/view/screen/language.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

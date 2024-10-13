@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:untitled/core/constant/routes.dart';
+import 'package:travelapp/core/constant/routes.dart';
 
 abstract class verifycodePhoneController extends GetxController {
   verifycodePhone();

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
-import 'package:untitled/controller/auth/resetpassword_controller.dart';
-import 'package:untitled/view/widget/auth/custombuttonauth.dart';
-import 'package:untitled/view/widget/auth/customtextformauth.dart';
+import 'package:travelapp/controller/auth/resetpassword_controller.dart';
+import 'package:travelapp/view/widget/auth/custombuttonauth.dart';
+import 'package:travelapp/view/widget/auth/customtextformauth.dart';
 
 class ResetPassword extends StatefulWidget {
   @override

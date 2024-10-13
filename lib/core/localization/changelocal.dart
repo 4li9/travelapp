@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:untitled/core/services/services.dart';
+import 'package:travelapp/core/services/services.dart';
 
 
 class LocaleController extends GetxController {

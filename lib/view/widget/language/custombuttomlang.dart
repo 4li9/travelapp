@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/core/constant/colore.dart';
+import 'package:travelapp/core/constant/colore.dart';
 
 class CustomButtonLang extends StatelessWidget {
   final String textbutton;

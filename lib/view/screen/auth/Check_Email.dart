@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:untitled/controller/auth/CheckEmail_controller.dart';
-import 'package:untitled/view/widget/auth/custombuttonauth.dart';
-import 'package:untitled/view/widget/auth/customtextformauth.dart';
+import 'package:travelapp/controller/auth/CheckEmail_controller.dart';
+import 'package:travelapp/view/widget/auth/custombuttonauth.dart';
+import 'package:travelapp/view/widget/auth/customtextformauth.dart';
 
 class Check_Email extends StatefulWidget {
   @override

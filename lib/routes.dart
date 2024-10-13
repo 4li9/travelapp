@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/core/constant/routes.dart';
-import 'package:untitled/view/screen/OnBoarding.dart';
-import 'package:untitled/view/screen/auth/Check_Email.dart';
-import 'package:untitled/view/screen/auth/Check_Phone.dart';
-import 'package:untitled/view/screen/auth/My_Wiishlist.dart';
-import 'package:untitled/view/screen/auth/Notifications.dart';
-import 'package:untitled/view/screen/auth/SignUp.dart';
-import 'package:untitled/view/screen/auth/Special_Offers.dart';
-import 'package:untitled/view/screen/auth/forgetpassword/forgetpassword.dart';
-import 'package:untitled/view/screen/auth/forgetpassword/resetpassword.dart';
-import 'package:untitled/view/screen/auth/forgetpassword/verifycodeEmail.dart';
-import 'package:untitled/view/screen/auth/forgetpassword/verifycodePhone.dart';
-import 'package:untitled/view/screen/auth/home.dart';
-import 'package:untitled/view/screen/auth/login.dart';
-import 'package:untitled/view/screen/auth/SignIn.dart';
-import 'package:untitled/view/screen/auth/widget_test.dart';
-import 'package:untitled/view/screen/language.dart';
+import 'package:travelapp/core/constant/routes.dart';
+import 'package:travelapp/view/screen/OnBoarding.dart';
+import 'package:travelapp/view/screen/auth/Check_Email.dart';
+import 'package:travelapp/view/screen/auth/Check_Phone.dart';
+import 'package:travelapp/view/screen/auth/My_Wiishlist.dart';
+import 'package:travelapp/view/screen/auth/Notifications.dart';
+import 'package:travelapp/view/screen/auth/SignUp.dart';
+import 'package:travelapp/view/screen/auth/Special_Offers.dart';
+import 'package:travelapp/view/screen/auth/forgetpassword/forgetpassword.dart';
+import 'package:travelapp/view/screen/auth/forgetpassword/resetpassword.dart';
+import 'package:travelapp/view/screen/auth/forgetpassword/verifycodeEmail.dart';
+import 'package:travelapp/view/screen/auth/forgetpassword/verifycodePhone.dart';
+import 'package:travelapp/view/screen/auth/home.dart';
+import 'package:travelapp/view/screen/auth/login.dart';
+import 'package:travelapp/view/screen/auth/SignIn.dart';
+import 'package:travelapp/view/screen/auth/widget_test.dart';
+import 'package:travelapp/view/screen/language.dart';
 
 Map<String, Widget Function(BuildContext)> routes = {
   AppRoute.Language: (context) => Language(),

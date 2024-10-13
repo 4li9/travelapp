@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart'; // استيراد مكتبة Flutter لبناء واجهة المستخدم.
 import 'package:get/get.dart'; // استيراد مكتبة GetX لإدارة الحالة والتنقل.
 import 'package:image_picker/image_picker.dart'; // استيراد مكتبة ImagePicker لاختيار الصور.
-import 'package:untitled/core/constant/routes.dart'; // استيراد مسارات التطبيق من ملف constant/routes.dart.
+import 'package:travelapp/core/constant/routes.dart'; // استيراد مسارات التطبيق من ملف constant/routes.dart.
 
 // تعريف فئة مجردة للتحكم بعملية تسجيل الدخول
 abstract class SignUp_controller extends GetxController {

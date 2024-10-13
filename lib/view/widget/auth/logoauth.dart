@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/core/constant/imageasset.dart';
+import 'package:travelapp/core/constant/imageasset.dart';
 
 class logoauth extends StatelessWidget {
   @override

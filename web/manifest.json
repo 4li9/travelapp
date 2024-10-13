@@ -1,6 +1,6 @@
 {
-    "name": "untitled",
-    "short_name": "untitled",
+    "name": "travelapp",
+    "short_name": "travelapp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

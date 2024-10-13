@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
-import 'package:untitled/controller/auth/verifycodePhone_controller.dart';
-import 'package:untitled/view/widget/auth/custombuttonauth.dart';
+import 'package:travelapp/controller/auth/verifycodePhone_controller.dart';
+import 'package:travelapp/view/widget/auth/custombuttonauth.dart';
 
 class verifycodePhone extends StatefulWidget {
   @override

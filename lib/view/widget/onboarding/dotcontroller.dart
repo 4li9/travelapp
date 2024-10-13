@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:untitled/controller/onboarding_controller.dart';
-import 'package:untitled/core/constant/colore.dart';
-import 'package:untitled/data/datasorce/static/static.dart';
+import 'package:travelapp/controller/onboarding_controller.dart';
+import 'package:travelapp/core/constant/colore.dart';
+import 'package:travelapp/data/datasorce/static/static.dart';
 
 
 
