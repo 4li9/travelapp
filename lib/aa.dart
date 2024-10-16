@@ -1,5 +1,5 @@
  /*تنيل المشروع
-git clone https://github.com/4li9/Travel-app.git
+git clone https://github.com/4li9/travelapp.git
 
 //لارسال التعديلات
 git add .
