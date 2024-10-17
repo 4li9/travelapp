@@ -15,6 +15,11 @@ class _ForgetPasswordState extends State<ForgetPassword> {
   Widget build(BuildContext context) {
     ForgetPasswordControllerImp controller =
         Get.put(ForgetPasswordControllerImp());
+
+    // الحصول على أبعاد الشاشة
+    var screenHeight = MediaQuery.of(context).size.height;
+    var screenWidth = MediaQuery.of(context).size.width;
+
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(
@@ -30,22 +35,28 @@ class _ForgetPasswordState extends State<ForgetPassword> {
         centerTitle: true,
       ),
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: EdgeInsets.symmetric(
+            horizontal: screenWidth * 0.05), // هامش جانبي بناءً على عرض الشاشة
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Center(
               child: Image.asset(
-                'assets/images/2024_06_01_16_52_IMG_7070.JPG', // تأكد من أنك قد أضفت الملف الصحيح في مجلد assets
-                height: 230,
+                'assets/images/2024_06_01_16_52_IMG_7070.JPG', // تأكد من أن الملف موجود في مجلد assets
+                height:
+                    screenHeight * 0.3, // جعل الصورة تأخذ نسبة من ارتفاع الشاشة
               ),
             ),
-            SizedBox(height: 20),
+            SizedBox(
+                height: screenHeight * 0.03), // مسافة بناءً على ارتفاع الشاشة
             Text(
               'Select which contact details should we use to reset your password',
-              style: TextStyle(fontSize: 16),
+              style: TextStyle(
+                  fontSize:
+                      screenHeight * 0.022), // حجم النص بناءً على ارتفاع الشاشة
             ),
-            SizedBox(height: 20),
+            SizedBox(
+                height: screenHeight * 0.03), // مسافة بناءً على ارتفاع الشاشة
             GestureDetector(
               onTap: () {
                 setState(() {
@@ -59,7 +70,7 @@ class _ForgetPasswordState extends State<ForgetPassword> {
                 isSelected: selectedOption == 'sms',
               ),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: screenHeight * 0.02), // مسافة بين الخيارات
             GestureDetector(
               onTap: () {
                 setState(() {
@@ -85,7 +96,8 @@ class _ForgetPasswordState extends State<ForgetPassword> {
                       }
                     }
                   : null,
-            )
+            ),
+            SizedBox(height: screenHeight * 0.02), // مسافة أخيرة لتفادي التلاصق
           ],
         ),
       ),
@@ -112,8 +124,12 @@ class ContactOption extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // استخدام MediaQuery لضبط الحجم
+    var screenHeight = MediaQuery.of(context).size.height;
+
     return Container(
-      padding: EdgeInsets.all(16),
+      padding: EdgeInsets.all(
+          screenHeight * 0.02), // padding بناءً على ارتفاع الشاشة
       decoration: BoxDecoration(
         color: isSelected ? Colors.blue.shade50 : Colors.white,
         borderRadius: BorderRadius.circular(10),
@@ -126,13 +142,19 @@ class ContactOption extends StatelessWidget {
             backgroundColor: Colors.grey.shade200,
             child: Icon(icon, color: Colors.black),
           ),
-          SizedBox(width: 16),
+          SizedBox(
+              width: screenHeight *
+                  0.02), // مسافة بين الأيقونة والنص بناءً على ارتفاع الشاشة
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(contactType, style: TextStyle(color: Colors.grey)),
+              Text(contactType,
+                  style: TextStyle(
+                      color: Colors.grey, fontSize: screenHeight * 0.02)),
               Text(contactDetail,
-                  style: TextStyle(fontWeight: FontWeight.bold)),
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: screenHeight * 0.02)),
             ],
           ),
         ],
